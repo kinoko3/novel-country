@@ -15,22 +15,7 @@ def url_for():
     return url_content
 #url = 'https://www.lightnovel.cn/forum-91-1.html'#re模块里面的sub()和subn()替换
 
-cookies = {'lightnovel_0a3d_saltkey': 'skxm9XrD',
-           'lightnovel_0a3d_lastvisit': '1491344538',
-           'UM_distinctid': '15b3b46b9c30-007caf321d85dc-396a7807-1fa400-15b3b46b9c414fe',
-           'lightnovel_0a3d_sendmail': '1',
-           'lightnovel_0a3d_seccodeS0': '7403%2BRLo%2BF4LKalinaBR5GqSBpamtw87Hozz8j0QFtplOt7iorjRT89uKI8S5QUDy3fl4Xq%2FXoY',
-           'lightnovel_0a3d_ulastactivity': '1491731230%7C0',
-           'lightnovel_0a3d_auth': 'ad4a1QrRuE2E8Hrwtb3TSyE7Q90HXeImss0qFXQSAl%2BqlLY6WGKtCtQQbouHmdCyl%2F7hgiJPtpowQC%2FjnkkdHNn8dzQ',
-           'lightnovel_0a3d_lastcheckfeed': '483351%7C1491731230',
-           'lightnovel_0a3d_checkfollow': '1',
-           'lightnovel_0a3d_nofavfid': '1',
-           'lightnovel_0a3d_onlineusernum': '3461',
-           'CNZZDATA3599420': 'cnzz_eid%3D620048360-1491345381-%26ntime%3D1491727663',#不变
-           'lightnovel_0a3d_checkpm': '1', 'lightnovel_0a3d_noticeTitle': '1',
-           'lightnovel_0a3d_lastact': '1491731235%09connect.php%09check',
-           'lightnovel_0a3d_connect_is_bind': '1',
-           'lightnovel_0a3d_ignore_notice': '1'}
+cookies = {}
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
     }
 
