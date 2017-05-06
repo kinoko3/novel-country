@@ -1,5 +1,6 @@
 import re, requests, sqlite3, threading
-conn = sqlite3.connect('tittle.db')
+i = input("输入数据库名字，记得带后缀：")
+
 cursor = conn.cursor()
 values = cursor.execute('''select * from title''')
 url = 'https://www.lightnovel.cn/'
